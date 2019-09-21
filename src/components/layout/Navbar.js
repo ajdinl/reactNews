@@ -10,7 +10,7 @@ const Navbar = (props) => {
   return (
     <nav className="nav-wrapper grey darken-3">
       <div className='container'>
-        <Link to='/' className='brand-logo'>React News</Link>
+        <Link to='/' className='brand-logo left'>React News</Link>
         { links }
       </div>
     </nav>
